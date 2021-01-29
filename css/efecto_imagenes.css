@@ -1,0 +1,446 @@
+a {
+    text-decoration: none;
+}
+
+
+/*CUADRO 1*/
+
+/*Define el cuadro en posicion y tamaño. Alineacion del hiperenlace*/
+
+.cuadro {
+	width: 500px;
+	height: 312px;
+	border: 3px solid #fff;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	margin-top: 105px;
+	top: 167px;
+}
+
+/*Define tamaño de la máscara y por donde aparece*/
+
+.cuadro .mascara, .cuadro .contenido {
+     width: 500px;
+    height: 312px;
+    position: absolute;
+    overflow: hidden;
+	bottom:0;
+}
+
+/*Define parametros de la máscara*/
+
+.cuadro .mascara { 
+    background-color:rgba(51,153,255,0.3); 
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    opacity: 0;
+}   
+
+
+/*Define propiedades del texto "h2"*/
+
+.cuadro h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+	color: #FFF;
+    font-size: 42px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+	border-bottom: 2px solid #000;
+    margin: 20px 40px 0px 40px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+
+/*Define propiedades del parrafo*/
+
+.cuadro p {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+	color: #FFF;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+/*Define boton hiperenlace*/
+
+.cuadro a.informacion {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #fff;
+    text-transform: uppercase;
+	text-align:center
+	opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+/*Define desaparacion de imagen principal*/
+
+.cuadro img { 
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.cuadro:hover img { 
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    opacity: 0;
+}
+.cuadro:hover .mascara { 
+    opacity: 1;
+}                                                                            
+.cuadro:hover h2,
+.cuadro:hover p,
+.cuadro:hover a.informacion {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+/*cuadro2*/
+
+/*Define el cuadro2 en posicion y tamaño. Alineacion del hiperenlace*/
+
+.cuadro2 {
+	margin: 105px auto auto 51px;
+	width: 500px;
+	height: 312px;
+	border: 3px solid #fff;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+}
+
+/*Define tamaño de la máscara y por donde aparece*/
+
+.cuadro2 .mascara, .cuadro2 .contenido {
+    width: 500px;
+    height: 312px;
+    position: absolute;
+    overflow: hidden;
+	bottom:0;
+}
+
+/*Define parametros de la máscara*/
+
+.cuadro2 .mascara { 
+    background-color:rgba(51,153,255,0.3); 
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    opacity: 0;
+}   
+
+
+/*Define propiedades del texto "h2"*/
+
+.cuadro2 h2 {
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	color: #FFF;
+	font-size: 42px;
+	padding: 10px;
+	margin: 20px 0 0 0;
+	border-bottom: 2px solid #000;
+	margin: 20px 20px 0px 40px;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+
+/*Define propiedades del parrafo*/
+
+.cuadro2 p {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+	color: #FFF;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+/*Define boton hiperenlace*/
+
+.cuadro2 a.informacion {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 0px 7px 35px;
+	color: #fff;
+	text-transform: uppercase;
+
+
+	text-align:center
+	opacity: 0;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+/*Define desaparacion de imagen principal*/
+
+.cuadro2 img { 
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.cuadro2:hover img { 
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    opacity: 0;
+}
+.cuadro2:hover .mascara { 
+    opacity: 1;
+}                                                                            
+.cuadro2:hover h2,
+.cuadro2:hover p,
+.cuadro2:hover a.informacion {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+/*cuadro3 */
+
+/*Define el cuadro3 en posicion y tamaño. Alineacion del hiperenlace*/
+
+.cuadro3 {
+	width: 500px;
+	height: 312px;
+	border: 3px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 470px;
+	right: 0px;
+}
+
+/*Define tamaño de la máscara y por donde aparece*/
+
+.cuadro3 .mascara, .cuadro3 .contenido {
+    width: 500px;
+    height: 312px;
+    position: absolute;
+    overflow: hidden;
+	bottom:0;
+}
+
+/*Define parametros de la máscara*/
+
+.cuadro3 .mascara { 
+    background-color:rgba(51,153,255,0.3); 
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    opacity: 0;
+}   
+
+
+/*Define propiedades del texto "h2"*/
+
+.cuadro3 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+	color: #FFF;
+    font-size: 42px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+	border-bottom: 2px solid #000;
+    margin: 20px 40px 0px 40px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+
+/*Define propiedades del parrafo*/
+
+.cuadro3 p {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+	color: #FFF;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+/*Define boton hiperenlace*/
+
+.cuadro3 a.informacion {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #fff;
+    text-transform: uppercase;
+	text-align:center
+	opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+/*Define desaparacion de imagen principal*/
+
+.cuadro3 img { 
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.cuadro3:hover img { 
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    opacity: 0;
+}
+.cuadro3:hover .mascara { 
+    opacity: 1;
+}                                                                            
+.cuadro3:hover h2,
+.cuadro3:hover p,
+.cuadro3:hover a.informacion {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}

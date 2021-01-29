@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+
+
+a:hover{
+	text-decoration: underline;
+	text-transform: none;
+}
+
+
+a{text-decoration:none;}
+
+
+
+/* Centra el contenedor y carga imagen de fondo. Fondo negro por si no carga */
+body {
+	margin:0 auto;
+	left:0px;
+	top:0px;
+	background-image:url(../imagenes/fondo.jpg);
+	background-repeat:repeat;
+	background-color:#000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-family:"Verdana, sans-serif";
+}
+
+
+
+#contenedor {
+	margin:0 auto;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+/* Body creado para centrar contenido independientemente del fondo */
+	#cuerpo {
+		margin:0 auto;
+		width:1118px;
+		height:100%;
+	}
+	
+/* Imagen creada con Photoshop para cabecera */
+		#banner {
+			
+			left:0px;
+			background-image:url(../imagenes/Logo.png);
+			background-position:center;
+			width:100%;
+			height:114px;
+		}
+	
+
+
+	#contenido {
+	top: 114px;
+	width: 1119px;
+	height: 100%;
+	padding-top: 20px;
+}
+
+		#portada {
+			margin: 0 auto;
+			}
+	
+
+			
+		#caja_logos {
+			position:relative;
+			height:210px;
+			width: 1119px;
+			margin:0 auto;
+			margin-top: 251px;
+				
+}
+		
+			.logoiz {
+				position: absolute;
+				left: 0%;
+				width: 25%;
+				height: 210px;
+				margin-top: 50px;
+}
+
+			.sobremi {
+				position:absolute;
+				left:25%;
+				width:50%;
+				height:250px;
+				padding-top: 50px;
+					
+}
+			
+			
+			.logoder {
+				position: relative;
+				width: auto;
+				height: 210px;
+				margin-top: 50px;
+				float: right;		
+}
+		#novedades {
+	position: relative;
+	margin-top:100px;
+
+}
+			
+
+			
+			#pie {
+				background-image:url(../imagenes/pie.png);
+				background-repeat:repeat-x;
+				position: relative;
+				width: 100%;
+				margin-bottom:
+
+}
+			
+
+
+
+hr {
+background-color:#fff;
+height:1px;
+width:auto;
+
+} 
+
+
+
+#lista {
+	color: #FFFFFF;
+	line-height: 30px;
+	margin-left: 20px;
+	font-size:14px;
+	
+	}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #00ccff));
+	background:-moz-linear-gradient(top, #000000 5%, #00ccff 100%);
+	background:-webkit-linear-gradient(top, #000000 5%, #00ccff 100%);
+	background:-o-linear-gradient(top, #000000 5%, #00ccff 100%);
+	background:-ms-linear-gradient(top, #000000 5%, #00ccff 100%);
+	background:linear-gradient(to bottom, #000000 5%, #00ccff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00ccff',GradientType=0);
+	background-color:#000000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:2px solid #00ffdd;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	padding:10px 20px;
+	margin-bottom:10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	position:relative;
+	margin-top:15px;
+}
+.myButton:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00ccff), color-stop(1, #000000));
+	background: -moz-linear-gradient(top, #00ccff 5%, #000000 100%);
+	background: -webkit-linear-gradient(top, #00ccff 5%, #000000 100%);
+	background: -o-linear-gradient(top, #00ccff 5%, #000000 100%);
+	background: -ms-linear-gradient(top, #00ccff 5%, #000000 100%);
+	background: linear-gradient(to bottom, #00ccff 5%, #000000 100%);
+
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ccff', endColorstr='#000000',GradientType=0);
+	background-color: #00ccff;
+	position: relative;
+	margin-top: 15px;
+}
+.myButton:active {
+	position:relative;
+}
+
+
+.videos{
+	position:relative;
+	width:50%;
+	z-index:1;
+	margin-top:50px;
+	}
+
+.tabla{
+	margin-top:50px;
+	column-width:20px
+	position:relative;
+	}
